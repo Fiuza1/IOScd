@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2815F0253CC455003BC23F /* trabIOSTests in Resources */ = {isa = PBXBuildFile; fileRef = DC2815EE253CC455003BC23F /* trabIOSTests */; };
+		DC2815F1253CC455003BC23F /* trabIOSUITests in Resources */ = {isa = PBXBuildFile; fileRef = DC2815EF253CC455003BC23F /* trabIOSUITests */; };
+		DC287F24253893CF00EBE47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC287F23253893CF00EBE47B /* AppDelegate.swift */; };
+		DC287F26253893CF00EBE47B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC287F25253893CF00EBE47B /* SceneDelegate.swift */; };
+		DC287F28253893CF00EBE47B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC287F27253893CF00EBE47B /* ViewController.swift */; };
+		DC287F2B253893CF00EBE47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC287F29253893CF00EBE47B /* Main.storyboard */; };
+		DC287F2D253893D000EBE47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC287F2C253893D000EBE47B /* Assets.xcassets */; };
+		DC287F30253893D000EBE47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC287F2E253893D000EBE47B /* LaunchScreen.storyboard */; };
+		DC287F692538C9C600EBE47B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC287F682538C9C600EBE47B /* LoginViewController.swift */; };
+		DC8CDAD4253B62790097D40D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CDAD3253B62790097D40D /* HomeViewController.swift */; };
+		DC8CDAD9253B628A0097D40D /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8CDAD8253B628A0097D40D /* ProductViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC287F37253893D000EBE47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC287F18253893CF00EBE47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC287F1F253893CF00EBE47B;
+			remoteInfo = TrabalhoIOS;
+		};
+		DC287F42253893D000EBE47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC287F18253893CF00EBE47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC287F1F253893CF00EBE47B;
+			remoteInfo = TrabalhoIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2815EE253CC455003BC23F /* trabIOSTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = trabIOSTests; sourceTree = "<group>"; };
+		DC2815EF253CC455003BC23F /* trabIOSUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = trabIOSUITests; sourceTree = "<group>"; };
+		DC287F20253893CF00EBE47B /* trabIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trabIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC287F23253893CF00EBE47B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC287F25253893CF00EBE47B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC287F27253893CF00EBE47B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC287F2A253893CF00EBE47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC287F2C253893D000EBE47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC287F2F253893D000EBE47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC287F31253893D000EBE47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC287F36253893D000EBE47B /* trabIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC287F41253893D000EBE47B /* trabIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trabIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC287F682538C9C600EBE47B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC8CDAD3253B62790097D40D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC8CDAD8253B628A0097D40D /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC287F1D253893CF00EBE47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC287F33253893D000EBE47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC287F3E253893D000EBE47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC287F17253893CF00EBE47B = {
+			isa = PBXGroup;
+			children = (
+				DC287F22253893CF00EBE47B /* trabIOS */,
+				DC2815EE253CC455003BC23F /* trabIOSTests */,
+				DC2815EF253CC455003BC23F /* trabIOSUITests */,
+				DC287F21253893CF00EBE47B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC287F21253893CF00EBE47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC287F20253893CF00EBE47B /* trabIOS.app */,
+				DC287F36253893D000EBE47B /* trabIOSTests.xctest */,
+				DC287F41253893D000EBE47B /* trabIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC287F22253893CF00EBE47B /* trabIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC287F5E2538BE2D00EBE47B /* Views */,
+				DC287F562538BCB600EBE47B /* Controllers */,
+				DC287F23253893CF00EBE47B /* AppDelegate.swift */,
+				DC287F25253893CF00EBE47B /* SceneDelegate.swift */,
+				DC287F572538BCD500EBE47B /* Supporting Files */,
+			);
+			path = trabIOS;
+			sourceTree = "<group>";
+		};
+		DC287F562538BCB600EBE47B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC287F27253893CF00EBE47B /* ViewController.swift */,
+				DC287F682538C9C600EBE47B /* LoginViewController.swift */,
+				DC8CDAD3253B62790097D40D /* HomeViewController.swift */,
+				DC8CDAD8253B628A0097D40D /* ProductViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC287F572538BCD500EBE47B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC287F31253893D000EBE47B /* Info.plist */,
+				DC287F2C253893D000EBE47B /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC287F5E2538BE2D00EBE47B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC287F29253893CF00EBE47B /* Main.storyboard */,
+				DC287F2E253893D000EBE47B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC287F1F253893CF00EBE47B /* trabIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC287F4A253893D000EBE47B /* Build configuration list for PBXNativeTarget "trabIOS" */;
+			buildPhases = (
+				DC287F1C253893CF00EBE47B /* Sources */,
+				DC287F1D253893CF00EBE47B /* Frameworks */,
+				DC287F1E253893CF00EBE47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trabIOS;
+			productName = TrabalhoIOS;
+			productReference = DC287F20253893CF00EBE47B /* trabIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC287F35253893D000EBE47B /* trabIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC287F4D253893D000EBE47B /* Build configuration list for PBXNativeTarget "trabIOSTests" */;
+			buildPhases = (
+				DC287F32253893D000EBE47B /* Sources */,
+				DC287F33253893D000EBE47B /* Frameworks */,
+				DC287F34253893D000EBE47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC287F38253893D000EBE47B /* PBXTargetDependency */,
+			);
+			name = trabIOSTests;
+			productName = TrabalhoIOSTests;
+			productReference = DC287F36253893D000EBE47B /* trabIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC287F40253893D000EBE47B /* trabIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC287F50253893D000EBE47B /* Build configuration list for PBXNativeTarget "trabIOSUITests" */;
+			buildPhases = (
+				DC287F3D253893D000EBE47B /* Sources */,
+				DC287F3E253893D000EBE47B /* Frameworks */,
+				DC287F3F253893D000EBE47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC287F43253893D000EBE47B /* PBXTargetDependency */,
+			);
+			name = trabIOSUITests;
+			productName = TrabalhoIOSUITests;
+			productReference = DC287F41253893D000EBE47B /* trabIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC287F18253893CF00EBE47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DC287F1F253893CF00EBE47B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DC287F35253893D000EBE47B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DC287F1F253893CF00EBE47B;
+					};
+					DC287F40253893D000EBE47B = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DC287F1F253893CF00EBE47B;
+					};
+				};
+			};
+			buildConfigurationList = DC287F1B253893CF00EBE47B /* Build configuration list for PBXProject "trabIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC287F17253893CF00EBE47B;
+			productRefGroup = DC287F21253893CF00EBE47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC287F1F253893CF00EBE47B /* trabIOS */,
+				DC287F35253893D000EBE47B /* trabIOSTests */,
+				DC287F40253893D000EBE47B /* trabIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC287F1E253893CF00EBE47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC287F30253893D000EBE47B /* LaunchScreen.storyboard in Resources */,
+				DC287F2D253893D000EBE47B /* Assets.xcassets in Resources */,
+				DC2815F1253CC455003BC23F /* trabIOSUITests in Resources */,
+				DC287F2B253893CF00EBE47B /* Main.storyboard in Resources */,
+				DC2815F0253CC455003BC23F /* trabIOSTests in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC287F34253893D000EBE47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC287F3F253893D000EBE47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC287F1C253893CF00EBE47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8CDAD9253B628A0097D40D /* ProductViewController.swift in Sources */,
+				DC8CDAD4253B62790097D40D /* HomeViewController.swift in Sources */,
+				DC287F692538C9C600EBE47B /* LoginViewController.swift in Sources */,
+				DC287F28253893CF00EBE47B /* ViewController.swift in Sources */,
+				DC287F24253893CF00EBE47B /* AppDelegate.swift in Sources */,
+				DC287F26253893CF00EBE47B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC287F32253893D000EBE47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC287F3D253893D000EBE47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC287F38253893D000EBE47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC287F1F253893CF00EBE47B /* trabIOS */;
+			targetProxy = DC287F37253893D000EBE47B /* PBXContainerItemProxy */;
+		};
+		DC287F43253893D000EBE47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC287F1F253893CF00EBE47B /* trabIOS */;
+			targetProxy = DC287F42253893D000EBE47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC287F29253893CF00EBE47B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC287F2A253893CF00EBE47B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC287F2E253893D000EBE47B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC287F2F253893D000EBE47B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC287F48253893D000EBE47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC287F49253893D000EBE47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC287F4B253893D000EBE47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "trabIOS/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotemig.trabIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC287F4C253893D000EBE47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "trabIOS/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotemig.trabIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC287F4E253893D000EBE47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrabalhoIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotemig.TrabalhoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrabalhoIOS.app/TrabalhoIOS";
+			};
+			name = Debug;
+		};
+		DC287F4F253893D000EBE47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrabalhoIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotemig.TrabalhoIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrabalhoIOS.app/TrabalhoIOS";
+			};
+			name = Release;
+		};
+		DC287F51253893D000EBE47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrabalhoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotemig.TrabalhoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrabalhoIOS;
+			};
+			name = Debug;
+		};
+		DC287F52253893D000EBE47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrabalhoIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cotemig.TrabalhoIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrabalhoIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC287F1B253893CF00EBE47B /* Build configuration list for PBXProject "trabIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC287F48253893D000EBE47B /* Debug */,
+				DC287F49253893D000EBE47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC287F4A253893D000EBE47B /* Build configuration list for PBXNativeTarget "trabIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC287F4B253893D000EBE47B /* Debug */,
+				DC287F4C253893D000EBE47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC287F4D253893D000EBE47B /* Build configuration list for PBXNativeTarget "trabIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC287F4E253893D000EBE47B /* Debug */,
+				DC287F4F253893D000EBE47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC287F50253893D000EBE47B /* Build configuration list for PBXNativeTarget "trabIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC287F51253893D000EBE47B /* Debug */,
+				DC287F52253893D000EBE47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC287F18253893CF00EBE47B /* Project object */;
+}
